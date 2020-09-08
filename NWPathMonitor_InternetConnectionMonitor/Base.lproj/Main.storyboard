@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NWPathMonitor_InternetConnectionMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Internet Connection Monitoring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Spj-5d-ITO">
+                                <rect key="frame" x="52.5" y="94" width="309.5" height="25.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Internet Connection Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5s0-8j-yDA">
+                                <rect key="frame" x="20" y="149.5" width="210" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="N/A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SIF-Z7-Vz2">
+                                <rect key="frame" x="250" y="148.5" width="144" height="23"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grL-IC-vDV">
+                                <rect key="frame" x="50" y="220.5" width="112" height="30"/>
+                                <state key="normal" title="Start Monitoring"/>
+                                <connections>
+                                    <action selector="startMonitoringTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qsh-qw-ziw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jtk-hD-HIZ">
+                                <rect key="frame" x="260" y="220.5" width="104" height="30"/>
+                                <state key="normal" title="End Monitoring"/>
+                                <connections>
+                                    <action selector="EndMonitoringTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fKh-Lc-F7d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="grL-IC-vDV" firstAttribute="top" secondItem="5s0-8j-yDA" secondAttribute="bottom" constant="50" id="5Ll-vm-KWi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SIF-Z7-Vz2" secondAttribute="trailing" constant="20" id="7sd-L8-abz"/>
+                            <constraint firstItem="grL-IC-vDV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Bix-n9-1HB"/>
+                            <constraint firstItem="jtk-hD-HIZ" firstAttribute="centerY" secondItem="grL-IC-vDV" secondAttribute="centerY" id="JfP-Si-Bkg"/>
+                            <constraint firstItem="5s0-8j-yDA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KNH-aA-kH9"/>
+                            <constraint firstItem="SIF-Z7-Vz2" firstAttribute="centerY" secondItem="5s0-8j-yDA" secondAttribute="centerY" id="WKS-bP-Kyn"/>
+                            <constraint firstItem="5s0-8j-yDA" firstAttribute="top" secondItem="Spj-5d-ITO" secondAttribute="bottom" constant="30" id="Wfe-NI-9QW"/>
+                            <constraint firstItem="Spj-5d-ITO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="YJ4-Ij-uy6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jtk-hD-HIZ" secondAttribute="trailing" constant="50" id="cX1-qg-tWo"/>
+                            <constraint firstItem="Spj-5d-ITO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vs4-Ts-8HL"/>
+                            <constraint firstItem="SIF-Z7-Vz2" firstAttribute="leading" secondItem="5s0-8j-yDA" secondAttribute="trailing" constant="20" id="xRJ-Qe-gGG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="endMonitoringBtn" destination="jtk-hD-HIZ" id="hea-Ig-ZD5"/>
+                        <outlet property="startMonitoringBtn" destination="grL-IC-vDV" id="HLu-4y-5s8"/>
+                        <outlet property="statusLbl" destination="SIF-Z7-Vz2" id="M5z-wb-IPq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="88"/>
+        </scene>
+    </scenes>
+</document>

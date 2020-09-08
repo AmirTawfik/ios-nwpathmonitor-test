@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "509B2A17-F8FC-478C-976C-72198F2FC8EB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8AE4A888-47C1-460D-B32B-7C65ACF4235A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NWPathMonitor_InternetConnectionMonitor/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "startMonitoring()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F308313C-B9C9-4766-BE38-CAA071B18179"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NWPathMonitor_InternetConnectionMonitor/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "startMonitoring()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F308313C-B9C9-4766-BE38-CAA071B18179 - 4673b0d6aa59f224"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NWPathMonitor_InternetConnectionMonitor.ViewController.startMonitoring() -&gt; ()"
+                  moduleName = "NWPathMonitor_InternetConnectionMonitor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amirtawfik/Amir/Learn/Swift/NWPathMonitor_InternetConnectionMonitor/NWPathMonitor_InternetConnectionMonitor/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "55">
+               </Location>
+               <Location
+                  uuid = "F308313C-B9C9-4766-BE38-CAA071B18179 - f88ea3e09f2bfc22"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Network.NWPath) -&gt; () in NWPathMonitor_InternetConnectionMonitor.ViewController.startMonitoring() -&gt; ()"
+                  moduleName = "NWPathMonitor_InternetConnectionMonitor"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amirtawfik/Amir/Learn/Swift/NWPathMonitor_InternetConnectionMonitor/NWPathMonitor_InternetConnectionMonitor/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "349">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A6E2939-A296-4DB8-B8CF-FD245DCA1843"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NWPathMonitor_InternetConnectionMonitor/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "endMonitoring()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
