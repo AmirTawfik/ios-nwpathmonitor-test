@@ -42,6 +42,7 @@
 		FC3F9C1E2507FE7D00C56751 = {
 			isa = PBXGroup;
 			children = (
+				FC3F9C3E250819E400C56751 /* Readme.md */,
 				FC3F9C292507FE7D00C56751 /* NWPathMonitor_InternetConnectionMonitor */,
 				FC3F9C282507FE7D00C56751 /* Products */,
 			);
@@ -65,7 +66,6 @@
 				FC3F9C332507FE8300C56751 /* Assets.xcassets */,
 				FC3F9C352507FE8300C56751 /* LaunchScreen.storyboard */,
 				FC3F9C382507FE8300C56751 /* Info.plist */,
-				FC3F9C3E250819E400C56751 /* Readme.md */,
 			);
 			path = NWPathMonitor_InternetConnectionMonitor;
 			sourceTree = "<group>";
